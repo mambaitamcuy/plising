@@ -1,0 +1,67 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+}
+
+/* Container form */
+.container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;          /* border abu-abu */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* efek frame */
+    text-align: center;
+    width: 350px;
+}
+
+/* Header form */
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #222;
+    border-bottom: 2px solid teal;  /* garis bawah header */
+    padding-bottom: 10px;
+}
+
+/* Input */
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.container input:focus {
+    border: 1px solid teal;
+}
+
+/* Tombol */
+.container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: teal;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background: darkcyan;
+}

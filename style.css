@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-overlay {
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+header {
+    background: rgba(0,0,0,0.5); /* semi transparan agar teks terlihat */
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #00bfa5;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+}
+
+.event-card {
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    padding: 25px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.event-card img {
+    content: url('../img/banner.jpg');
+    border-radius: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.event-card h2 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.event-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.event-card ul li {
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #00796b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #004d40;
+}
+
+footer {
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
